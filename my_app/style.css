@@ -1,0 +1,43 @@
+*{
+    margin:0; 
+    padding:0;
+    
+    line-height: 24px; 
+    
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    height: 100%;
+
+    
+}
+h1{
+    font-size: 22px;
+}
+.time{
+    float: right;
+}
+
+
+.button {
+    float: right;
+    
+   
+}
+.date a {
+    text-decoration: none; 
+}
+#Ya{
+    color: red;
+}
+.items{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
