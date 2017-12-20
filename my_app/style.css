@@ -18,13 +18,16 @@
 h1{
     font-size: 22px;
 }
-.time{
-    float: right;
-}
-
 
 .button {
     float: right;
+    width: 140px;
+    height: 36px;
+    color: #fff;
+    background-color: #007dff;
+    border-radius: 5px;
+    border: 0;
+
     
    
 }
@@ -40,4 +43,5 @@ h1{
     flex-direction: column;
     justify-content: flex-start;
 }
+
 
