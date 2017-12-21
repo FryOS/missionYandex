@@ -43,16 +43,16 @@ h1::first-letter{
 }
 
 .butMeeting {
-    margin: auto;
-    padding-top: 10px;
-    
+    line-height: 36px;
+    height: 36px;
     width: 140px;
-    height: 36px;    
+    box-sizing: border-box;   
     text-align: center;
     color: #fff;
     background-color: #007dff;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 0;
+    cursor: pointer;
 
    
 }
@@ -87,7 +87,7 @@ h1::first-letter{
 }
 
 .diagram{
-     
+
 
 }
 
