@@ -79,18 +79,24 @@ h1::first-letter{
 
 
 .binder{
+    max-width: 1280px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
     
-    margin-top: 15px;
+}
+.leftMenu{
+    padding-right: 2px;
+    
 }
 
 .diagram{
-
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 
 }
-
+.tableBinder{
+    width: 100%;
+}
 
 .thead tr {
     background-color: #fff;
