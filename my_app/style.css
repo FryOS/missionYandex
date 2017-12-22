@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic,cyrillic-ext,latin-ext');
+
 *{
     margin:0; 
     padding:0;
     line-height: 24px; 
+    box-sizing: border-box;
     
+}
+body{
+    font-size: 1.35em;
+    font-family: Roboto, sans-serif;
+    color : #000;
+
 }
 
 .wrapper {
@@ -17,30 +26,94 @@
 }
 
 .wrapper .header .items-head{
+    margin-bottom: 18px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row; 
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;  
       
+}
+.calendar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;   
+    margin: 10px auto; 
+    margin-top: 18px;
+    border-bottom: 1px solid #e9ecef;
+    border-top: 1px solid #e9ecef;
+}
+
+.hours{
+    display: flex;
+    flex-direction: row;  
+    padding: 15px 15px;
+    
+    
+}
+.cal{
+    display: flex;
+    justify-content: start;
+    
+    padding: 15px 15px;
+}
+.flex-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    padding: 5px;
+    background: #fff;
+    margin: 1px auto;
+
+}
+.flex-elem{
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    background: firebrick;
+
+}
+
+/* .table{
+    display: table;
+    padding: 0;
+    border-spacing: 0px;
+    
+    
+  }
+  .table .row:nth-child(odd){
+   background: #f6f7f9;
+    
+  }
+  .table .row:nth-child(even){
+   background: #d5dfe9;
+    
+  }
+  
+  
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+    padding: 9px 9px;
+    width: 4.16%;
+} */
+
+.binder{
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap : wrap;
 }
 
 h1{
     font-size: 22px;
 }
 h1::first-letter{
-    color: red;
-    
-}
-
-
-.dateTime{
-    display: flex;  
-    flex-wrap: wrap;
-    flex-direction: row; 
-    margin-top: 10px;  
-    
-    border-top: 1px solid #e9ecef;
-
+    color: red;   
 }
 
 .butMeeting {
@@ -54,12 +127,10 @@ h1::first-letter{
     border-radius: 3px;
     border: 0;
     cursor: pointer;
-
    
 }
 .date a {
     text-decoration: none;
-
 }
 .butMeeting:link{
     background-color: #007dfe;
@@ -79,48 +150,12 @@ h1::first-letter{
 }
 
 
-.binder{
-    max-width: 1280px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap : nowrap;
-    
 
-    
-}
 .leftMenu{
     margin-top: 20px; 
     padding-right: 2px;
 
     
 }
-.tableBinder{
-    
-}
 
-.diagram{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    
 
-}
-.tableBinder{
-    width: 100%;
-}
-
-.thead tr {
-    background-color: #fff;
-}
-
-.tbody tr:nth-child(odd) {
-    background-color: #f6f7f9;
-}
-
-.tbody tr:nth-child(even) {
-    background-color: #d5dfe9;
-}
-
-.thead{
-    text-align: right ;
-}
