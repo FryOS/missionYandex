@@ -8,7 +8,7 @@
     
 }
 body{
-    font-size: 1.35em;
+    font-size: 1.15em;
     font-family: Roboto, sans-serif;
     color : #000;
 
@@ -62,27 +62,42 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap; 
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5px;
     background: #fff;
     margin: 1px auto;
 
 }
 .flex-elem{
-    color: #fff;
+    /* color: #fff; */
     padding: 5px;
     margin: 5px;
     background: firebrick;
 
 }
 
-/* .table{
+.table{
     display: table;
     padding: 0;
     border-spacing: 0px;
+    width: 100%;
+
+    
+}
+.row{
+    display: table-row;
+    border: 1px solid black;
     
     
-  }
+    
+}
+.cell{
+    display: inline-block;
+    display: table-cell;
+    padding: 9px 9px;
+    border: 1px solid black;
+    width: 4.16%;
+}
   .table .row:nth-child(odd){
    background: #f6f7f9;
     
@@ -93,20 +108,13 @@ body{
   }
   
   
-.row{
-    display: table-row;
-}
-.cell{
-    display: table-cell;
-    padding: 9px 9px;
-    width: 4.16%;
-} */
+
 
 .binder{
     max-width: 1280px;
     display: flex;
     flex-direction: row;
-    flex-wrap : wrap;
+    flex-wrap : nowrap;
 }
 
 h1{
@@ -157,5 +165,10 @@ h1::first-letter{
 
     
 }
+
+.active{
+    background: red;
+}
+
 
 
